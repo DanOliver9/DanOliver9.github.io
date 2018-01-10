@@ -1,0 +1,34 @@
+body{
+	background-color: #EBEBEB; 
+	overflow-y:scroll;
+	padding:0;
+	margin:0;
+	font-family:Arial;
+	font-size:3;
+	}
+
+	
+<!--Navbar-CSS-->
+
+nav{background-color:#000000; border-radius:8px; box-sizing:border-box; }
+nav ul{list-style-type:none; padding:0; margin:0; text-align:center; position:relative; opacity:50%; border-radius:8px; box-sizing:border-box;}
+nav ul li{display:inline-block;}
+nav ul li:hover{background-color:#B2B2B2;}
+nav ul li a{display:block; padding:25px; color:#FFF; text-decoration:none; }
+
+nav ul li:hover>ul{display:block; }
+nav ul ul{display:none; position:absolute; background-color:#000000; min-width:100px; text-align:left; border:2px solid #1F1F1F; border-top:0; margin: 0 0 0-2px;}
+nav ul ul li{display:block; } <!--remove to display dropdown horizontal-->
+nav ul ul li:hover{background-color:#1F1F1F; }
+
+<!--nav is the call name-->
+
+
+
+
+
+
+
+
+		
+
