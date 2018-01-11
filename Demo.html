@@ -1,53 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Led Zeppelin</title>
+		<title>Demo</title>
 		<link href="./Content/CSS/Navbar.css" Type="text/css" rel="stylesheet"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
-		
-			img{
-			border-radius: 8px;
-		}
+	img{
+		border-radius: 8px;
+	}
 
-		*{
-			box-sizing: border-box;
-		}
-		body{
-			margin:0;
-		}
-		.column{
-			float: left;
-			width: 80%;
-			padding: 20px;
-			border-radius: 8px;
-			box-sizing: border-box;
-		}
-		.row:after{
-			content: "";
-			display: table;
-			clear: both;
-		}
-		p.wrap{
-			width:140px;
-			border:1px solid #000000;
-			word-break:keep-all;
-		}
-		
-		.footer{
-			background-color: #000000;
-			padding: 10px;
-			text-align: right;
-		}
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		margin:0;
+	}
+	.column{
+		float: left;
+		width: 80%; <!--CHANGE % TO CHANGE NUMBER OF COLUMNS FOR 3 USE 33.33% OR 50% FOR 2-->
+		padding: 20px;
+	}
+	.row:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	p.wrap{
+		width:140px;
+		border:1px solid #000000;
+		word-break:keep-all;
+	}
+	.footer{
+		background-color: #000000;
+		padding: 10px;
+		text-align: right;
+	}
 	
-		.fadeImage {
-			-webkit-animation: fadein 4s; <!--Safari and Chrome-->
-			   -moz-animation: fadein 4s; <!--Firefox -->
-				-ms-animation: fadein 4s; <!--Internet Explorer-->
-				 -o-animation: fadein 4s; <!--Opera-->
+			.fadeImage {
+		-webkit-animation: fadein 4s; <!--Safari and Chrome-->
+		   -moz-animation: fadein 4s; <!--Firefox -->
+			-ms-animation: fadein 4s; <!--Internet Explorer-->
+			 -o-animation: fadein 4s; <!--Opera-->
 				animation: fadein 4s;
 		display: block;
 		margin: 25px auto;
+		}
+
+		@keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
 		}
 
 		@keyframes fadein {
@@ -78,9 +79,9 @@
 			from { opacity: 0; }
 			to   { opacity: 1; }
 		}
-	</style>
+	</style>	
 	</head>
-	<body style="background-color: #000000;" class="fadeImage" > <!--add background image here -->
+	<body style="background-color:#000000;" class="fadeImage"> <!--add background image here -->
 		
 		<nav>
 			<ul>
@@ -105,16 +106,9 @@
 			</ul>
 		</nav>
 		
-		<p class="p.wrap" style="text-align:center;"><a><img src="./Content/Images/border_image.jpg" alt="Led_Zep" align="middle" hspace="0" vspace="0"></a>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/1DXA6w9AMUw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-		
-		<div class="footer">
-			<p style="color:white">Dan Oliver<br>HND Computer Science<br>30068887</p>
-			<p style="color:white; float:right;"> <br><a href="./Index.html">Return to top of page</a></p>
-		</div>
-
-	
-	
-
+	<div class="footer">
+		<p style="color:white">Dan Oliver<br>HND Computer Science<br>30068887</p>
+		<p style="color:white; float:right;"> <br><a href="./Demo.html">Return to top of page</a></p>
+	</div>
 	</body>
 </html>

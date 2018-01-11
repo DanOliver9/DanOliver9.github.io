@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Report</title>
+		<link href="./Content/CSS/Navbar.css" Type="text/css" rel="stylesheet"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<style>
+	img{
+		border-radius: 8px;
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		margin:0;
+	}
+	.column{
+		float: left;
+		width: 80%; <!--CHANGE % TO CHANGE NUMBER OF COLUMNS FOR 3 USE 33.33% OR 50% FOR 2-->
+		padding: 20px;
+		border-radius: 8px;
+		box-sizing: border-box;
+	}
+	.row:after{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	p.wrap{
+		width:140px;
+		border:1px solid #000000;
+		word-break:keep-all;
+	}
+	.footer{
+		background-color: #000000;
+		padding: 10px;
+		text-align: right;
+	}
+	
+			.fadeImage {
+		-webkit-animation: fadein 4s; <!--Safari and Chrome-->
+		   -moz-animation: fadein 4s; <!--Firefox -->
+			-ms-animation: fadein 4s; <!--Internet Explorer-->
+			 -o-animation: fadein 4s; <!--Opera-->
+				animation: fadein 4s;
+		display: block;
+		margin: 25px auto;
+		}
+
+		@keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		@keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		<!--firefox-->
+		@-moz-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		<!--safari and chrome-->
+		@-webkit-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		<!--internet explorer-->
+		@-ms-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+
+		<!--opera-->
+		@-o-keyframes fadein {
+			from { opacity: 0; }
+			to   { opacity: 1; }
+		}
+	</style>	
+	</head>
+	<body style="background-color:#000000;" class="fadeImage"> <!--add background image here -->
+		
+		<nav>
+			<ul>
+				<li style="float:left"><a href="./Index.html"><img src="./Content/Images/Home_Link_Img.jpg" alt="Zeppelin_Logo" title="Homepage"></a></li>
+				<li><a href="./Discography.html" title="Discography">Discography</a></li><li>
+				<a href="./Store.html" title="Store">Store</a>
+					<ul>	
+						<li><a href="./Store.html">All</a></li>
+						<li><a href="./Store.html">Clothes</a></li>
+						<li><a href="./Store.html">Merchandise</a></li>
+						<li><a href="https://www.amazon.co.uk/Led-Zeppelin/e/B000AQU33I" rel="noopener noreferrer" target="_blank">Music</a></li>
+					</ul>
+				</li><li>
+				<a href="./Band.html" title="Band">Band</a></li><li>
+				<a href="http://ledzepnews.com/" rel="noopener noreferrer" target="_blank" title="News">News</a></li><li style="float:right"> <!--Moves this nav button to the right-->
+				<a href="./Demo.html">DEMO</a></li><li style="float:right">
+				<a href="./Report.html">Report</a></li><li style="float:right">
+				<a href="https://www.facebook.com/ledzeppelin/" rel="noopener noreferrer" target="_blank"><img src="./Content/Images/blue-facebook-logo.png" alt="Facebook" title="Facebook" style="width:15px; height:15px;"></a></li><li style="float:right">
+				<a href="https://www.instagram.com/ledzeppelin/?hl=en" rel="noopener noreferrer" target="_blank"><img src="./Content/Images/Instagram-logo.png" alt="Instagram" title="Instagram" style="width:15px; height:15px;"></a></li><li style="float:right">
+				<a href="https://twitter.com/ledzeppelin?lang=en" rel="noopener noreferrer" target="_blank"><img src="./Content/Images/twitter-icon.png" alt="Twitter" title="Twitter" style="width:15px; height:15px;"></a></li>
+				
+			</ul>
+		</nav>
+		
+		
+		<div class="row">
+			<div class="column" style="background-color:#EBEBEB;">
+		<h1 style="text-align:center;"><b>REPORT</b></h1>
+		<p class="p.wrap"><br></p>
+		<p class="p.wrap" style="text-align:center;">Current web specifications and standards in place are there for many reasons but as a brief overview they ensure web pages will function correctly on a variety of computers, tablets, phones and web browsers. This therefore means more access to the web pages and widens the target audience of the site. W3C Standards encourage the use of Style sheets such as 'Cascading Style sheets' otherwise known as CSS as it increases the loading time, uses less bandwidth by decreasing the page file size. CSS allows ease of editing by allowing multiple pages to use the same style coding. Styling such as changing background colour or images and setting it across of a number of pages with a simple <link> tag. Saving a huge amount of time in the long run. Knowing this I ensured to make my CSS suitable for us on all pages and used it as the template throughout my coding.
+			In order to allow fair accessibility, Web Accessibility Standards were put in place. Websites must comply with the standards of accessibility contained in W3C WAI (World Wide Web Consortium Web Accessibility Initiative) The law is as follows, the '508 Law'; 
+			<strong><i>"In 1998, Congress amended the Rehabilitation Act to require Federal agencies to make their electronic and information technology accessible to people with disabilities. Inaccessible technology interferes with an individual's ability to obtain and use information quickly and easily. Section 508 was enacted to eliminate barriers in information technology, to make available new opportunities for people with disabilities, and to encourage development of technologies that will help achieve these goals. The law applies to all Federal agencies when they develop, procure, maintain, or use electronic and information technology. Under Section 508 (29 U.S.C. ' 794d), agencies must give disabled employees and members of the public access to information that is comparable to the access available to others."</i></strong> <a href="http://www.soswebdesign.com/gallery/webstandards.cfm"><b>Check here</b></a>
+			Although if your business is a private operation and not legally required to have the 508 Law rules incorporated it is important to appreciate that more than 750 million people across the world have some type of disability. Not adhering to the needs of these people is reducing the amount of visitors to your site or at least reducing your target audience which is a hindrance worth avoiding. However the 508 law requires stricter coding skills as your code must suit a variety of browsers. A good knowledge of major browsers and also requires testing on windows and mac machines to check compatibility in cross-over platforms, which makes testing more time consuming and ludacrus.
+			It is also important to remember that all the code on any site should validate to W3C specifications which can be done via the following link - ' https://validator.w3.org/'. Following both of these standards I tried to ensure my site was easy to use by simplifying the navigation of the site, using fairly large and clear text fonts and generally keeping styling to a minimum as to avoid over complications. 
+			In order for my website to work across multiple platforms I had to edit certain areas of code where applicable to suit the different browsers needs. Here is an example of multiple browser compatibility:<br><p class="p.wrap" style="text-align:center;"><img src="./Content/Images/CSS_Image.png" ></p><br>
+			To allow the animation to run across various platforms I had to find the relevant browser support. I did this using W3schools. There is a way to make your site responsive on all platforms using CSS by setting the viewport. You can also set image spacing and height/width to a set sizing or percentage to allow it to cross-over to different platforms. 
+			I found that adapting my coding to allow a wider compatibility very challenging and spent alot of time researching on how to do this. There is a simpler way to allow cross-platform compatibility and that is as shown <a href="https://www.w3schools.com/html/html_responsive.asp" rel="noopener noreferrer" target="_blank"><b>here</b></a>
+			I didn't document my site testing as I consistently checked the website after a few lines of code to ensure it was running correctly. This was to avoid spending a long time coding to then run the site and find faults causing more time wasted trying to find the problem in the code.
+			Some of the basic web standards that I have applied to my website include: 
+			•	Homepage/logo in top left of the page.
+			•	Navigation bar across top
+			•	Social Media Icons
+			•	Mobile Compatibility
+			•	Image hyperlinks
+			•	Youtube Video's (embedded)
+			I struggled to host my site online trying two different sites repetitively yet my style.css was not loading 
+
+			<--CONFIRMATION OF W3C VALIDATION--></p>
+		</div>
+		</div>
+			
+		
+		
+	<div class="footer">
+		<p style="color:white">Dan Oliver<br>HND Computer Science<br>30068887</p>
+		<p style="color:white; float:right;"> <br><a href="./Report.html">Return to top of page</a></p>
+	</div>
+	</body>
+</html>
