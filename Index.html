@@ -40,44 +40,49 @@
 			text-align: right;
 		}
 	
-		.fadeImage {
-			-webkit-animation: fadein 4s; 
-			   -moz-animation: fadein 4s; 
-				-ms-animation: fadein 4s; 
-				 -o-animation: fadein 4s; 
-				   animation: fadein 4s;
+			.fadeImage {
+		-webkit-animation: fadein 4s; 
+		   -moz-animation: fadein 4s; 
+			-ms-animation: fadein 4s; 
+			 -o-animation: fadein 4s; 
+				animation: fadein 4s;
 		display: block;
 		margin: 25px auto;
 		}
 
-		keyframes fadein {
+		@keyframes fadein {
 		opacity: 0; 
 		opacity: 1; 
 		}
 
-		
-		-moz-keyframes fadein {
-		opacity:0;
-		opacity:1;
-		}
+	@keyframes fadein {
+	opacity: 0; 
+	opacity: 1; 
+	}
 
-		
-		-webkit-keyframes fadein {
-		opacity: 0; 
-		opacity: 1; 
-		}
+	
+	@-moz-keyframes fadein {
+	opacity: 0; 
+	opacity: 1; 
+	}
 
-		
-		-ms-keyframes fadein {
-		opacity: 0; 
-		opacity: 1; 
-		}
+	
+	@-webkit-keyframes fadein {
+	opacity: 0;
+	opacity: 1;
+	}
 
-		
-		-o-keyframes fadein {
-		opacity: 0; 
-		opacity: 1; 
-		}
+	
+	@-ms-keyframes fadein {
+	opacity: 0;
+	opacity: 1; 
+	}
+
+	
+	@-o-keyframes fadein {
+	opacity: 0; 
+	opacity: 1; 
+	}
 	</style>
 	</head>
 	<body style="background-color: #000000;" class="fadeImage" > <!--add background image here -->
